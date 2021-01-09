@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    outline: none;
+}
+
+body {
+    background-color: rgba(209, 211, 211, 0.986);
+    height: 100vh;
+    width: 100%;
+}
+
+.body {
+    margin-top: vh;
+    padding-left: 12px;
+    padding-right: 10px;
+    text-align: justify;
+    padding-top: 11vh;
+}
+
+.body_content {
+    text-align: center;
+    text-decoration: blink;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 5px;
+}
+
+.header {
+    width: 100%;
+    background-color: #25b7f7;
+    height: 7vh;
+    top: 0vh;
+    padding: 3px;
+    z-index: 1006;
+    justify-content: space-between;
+    display: inline-block;
+    display: flex;
+    position: fixed;
+    box-shadow: -5px 5px 0px 0px rgb(108 144 255);
+}
+
+
+/* .img {
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgb(228, 170, 94);
+                    }
+                    
+                    .jsPhoto {
+                        width: 100%;
+                        height: 80vh;
+                        background-color: blue;
+                    } */
+
+.icon_js {
+    display: flex;
+}
+
+.icons {
+    padding-left: 0;
+    margin-top: 3px;
+}
+
+.icon_menu {
+    width: 50px;
+}
+
+.icon_info {
+    width: 38px;
+    margin-right: 6px;
+    display: block;
+}
+
+.header h1 {
+    font-size: 35px;
+}
+
+.menu {
+    background-color: #2b8eff;
+    width: 80%;
+    margin-top: 8vh;
+    height: 92vh;
+    z-index: 1003;
+    display: flex;
+    display: absolute;
+    position: fixed;
+    text-align: none;
+    color: rgb(0, 0, 0);
+    border-left: 3px solid blue;
+}
+
+.units {
+    width: 106%;
+    border: 1px solid black;
+    display: block;
+    margin-left: 5px;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+.units a {
+    color: black;
+    text-decoration: none;
+}
+
+.unit1 {
+    display: block;
+    border: 1px solid black;
+}
+
+.dropMenu1 {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+
+/* .unit1:active unit1 {
+                    display: block;
+                } */
+
+
+/* #checkTop1:checked~.dropMenu1 {
+                    display: block;
+                }
+                 */
+
+.unit2 {
+    display: block;
+    border: 1px solid black;
+}
+
+.dropMenu2 {
+    background-color: #2b8eff;
+}
+
+.dropMenu2 a {
+    display: block;
+    font-size: 20px;
+}
+
+
+/* .unit2:hover .dropMenu2 {
+                display: block;
+            } */
+
+.unit3 {
+    display: block;
+    border: 1px solid black;
+}
+
+.dropMenu3 {
+    display: none;
+}
+
+.dropMenu3 a {
+    display: block;
+}
+
+.unit3:active .dropMenu3 {
+    display: block;
+}
+
+.info_info {
+    background-color: rgb(240, 190, 53);
+    width: 100%;
+    margin-top: 8vh;
+    height: 92vh;
+    z-index: 1003;
+    display: absolute;
+    position: fixed;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    justify-content: center;
+    border-top-width: 10px;
+}
+
+.info_text {
+    text-align: center;
+    text-decoration: blink;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    line-height: 1.5;
+    padding-left: 11px;
+    padding-top: 30px;
+    padding-right: 8px;
+}
+
+.info_text h1 {
+    margin-left: 80px;
+    font-size: 35px;
+}
+
+.info_text p {
+    font-size: 23px;
+}
+
+.ButtonMenu {
+    background-color: #25b7f7;
+    border: none;
+}
+
+.ButtonInfo {
+    background-color: #25b7f7;
+    border: none;
+    margin-right: 5px;
+}
+
+
+/* #check .dropMenu1 {
+                    display: none;
+                } */
+
+
+/* #check .dropMenu2 {
+                        display: none;
+                    }
+                    
+                    #check:checked~.dropMenu2 {
+                        display: block;
+                    } */
+
+.btn_sidebar {
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.btn_sidebar:active {
+    background-color: aquamarine;
+}
+
+.gero {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+code {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    background-color: skyblue;
+    align-items: center;
+}
+
+.imff {
+    float: left;
+    width: 300px;
+    height: 150x;
+}
+
+.none {
+    display: none;
+}
+
+.text-u {
+    font-family: sans-serif;
+}
